@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PhilippinesMapJSX from '../PhilippinesMapJSX';
+import BoholMapJSX from '../BoholMap';
 import ".././App.css";
 
 const PhilippinesMap = () => {
@@ -10,15 +10,15 @@ const PhilippinesMap = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [totalLevel, setTotalLevel] = useState(0);
 
-  const searchUrl = 'http://www.google.com/search?q="' + selectedProvince + ', Philippines"';
+  const searchUrl = 'http://www.google.com/search?q="' + selectedProvince + ', Bohol"';
 
   const menuOptions = [
-    { label: 'Lived there', level: 5, fill: '#e84c3d' },
-    { label: 'Stayed there', level: 4, fill: '#d58337' },
-    { label: 'Visited there', level: 3, fill: '#f3c218' },
-    { label: 'Alighted there', level: 2, fill: '#30cc70' },
-    { label: 'Passed there', level: 1, fill: '#3598db' },
-    { label: 'Never been there', level: 0, fill: 'white' },
+    { label: 'Naka-bringhouse', level: 5, fill: '#e84c3d' },
+    { label: 'Naka-diskoral', level: 4, fill: '#d58337' },
+    { label: 'Naka-videoke samtang namista', level: 3, fill: '#f3c218' },
+    { label: 'Nakapamista ug daghang balay', level: 2, fill: '#30cc70' },
+    { label: 'Nakapamista', level: 1, fill: '#3598db' },
+    { label: 'Wala kapamista', level: 0, fill: 'white' },
   ];
 
   const handleLevelClick = (selectedProvince, selectedProvinceLayer, event) => {
@@ -39,13 +39,14 @@ const PhilippinesMap = () => {
   };
 
   return (
-    <div>
-      <PhilippinesMapJSX
+    <div className="svg_container">
+      <BoholMapJSX
         setSelectedProvince={setSelectedProvince}
         setMenuPosition={setMenuPosition}
         setMenuVisible={setMenuVisible}
         setSelectedProvinceLayer={setSelectedProvinceLayer}
         totalLevel={totalLevel}
+        className="map_jsx"
       />
       {menuVisible && (
         <div
