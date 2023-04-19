@@ -28,14 +28,14 @@ body {
 }
 
 .Map-container {
-  background-color: white;
+  background-color: rgb(214, 214, 214);
   width: 100dvw;
   height: 100dvh;
   display: table-cell;
 }
 
 .Map-padding {
-  background-color: white;
+  background-color: rgb(214,214,214);
   padding-top: 20px;
   padding-bottom: 20;
 }
@@ -142,8 +142,14 @@ body {
   list-style-type: none;
   text-decoration: none;
   color: black;
+  background-color: rgb(214,214,214);
 
   padding-top: 10px;
+}
+
+.nav a {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .nav-ul {
