@@ -15,7 +15,7 @@ const BoholMap = () => {
   const menuOptions = [
     { label: 'Nagpista sa inyo', level: 5, fill: '#e84c3d' },
     { label: 'Naka-bringhouse', level: 4, fill: '#d58337' },
-    { label: 'Naka-diskoral', level: 3, fill: '#f3c218' },
+    { label: 'Naka disco', level: 3, fill: '#f3c218' },
     { label: 'Nakapamista ug daghang balay', level: 2, fill: '#30cc70' },
     { label: 'Nakapamista', level: 1, fill: '#3598db' },
     { label: 'Wala kapamista', level: 0, fill: 'white' },
