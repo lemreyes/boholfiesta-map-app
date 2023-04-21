@@ -80,8 +80,6 @@ const BoholMapJSX = ({
         viewBox="0 0 1000 1000"
         xmlSpace="preserve"
       >
-        <defs id="defs2" />
-        <metadata id="metadata5"></metadata>
         <g id="Background">
           <rect
             x="0"
