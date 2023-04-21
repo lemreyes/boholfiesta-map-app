@@ -91,7 +91,6 @@ const BoholMapJSX = ({
             strokeWidth="0.75"
             onClick={(event) => handleOutsideClick(event)}
           ></rect>
-          (event) => handleOutsideClick(event)}
         </g>
         <g id="WholeMap" transform="scale(3.5,3.5) translate(20,-60)">
           <g id="Loon" className="province-layer">
