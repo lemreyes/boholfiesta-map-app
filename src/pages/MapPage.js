@@ -44,7 +44,7 @@ function MapPage() {
               My Philippines Travel Level app
             </a>
           </p>
-          <p>
+          <p className="source">
             <a
               href="https://github.com/lemreyes/boholfiesta-map-app"
               target="_blank"
