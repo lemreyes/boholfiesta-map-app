@@ -76,23 +76,24 @@ const BoholMapJSX = ({
       <svg
         id="svg8"
         version="1.1"
-        viewBox="0 0 840 900"
-        height="297mm"
-        width="210mm"
+        viewBox="0 0 1000 1000"
       >
         <defs id="defs2" />
         <metadata id="metadata5"></metadata>
         <g id="Background">
-          <path
-            id="rect11351"
+          <rect
+            x="0"
+            y="0"
+            width="1000"
+            height="1000"
             fill="#ffffff"
             fillOpacity="1"
             strokeWidth="0.75"
-            d="M-1.031 1.031H841.288V1223.7849999999999H-1.031z"
             onClick={(event) => handleOutsideClick(event)}
-          ></path>
+          ></rect>
+          (event) => handleOutsideClick(event)}
         </g>
-        <g id="WholeMap" transform="scale(3.5,3.5) translate(20,-50)">
+        <g id="WholeMap" transform="scale(3.5,3.5) translate(20,-60)">
           <g id="Loon" className="province-layer">
             <path
               transform="scale(0.26458333)"
@@ -992,7 +993,7 @@ const BoholMapJSX = ({
                 strokeWidth="0.75"
                 fontSize="16"
               >
-                Naka-bringhouse
+                Nagpista sa inyo
               </tspan>
             </text>
             <text
@@ -1017,7 +1018,7 @@ const BoholMapJSX = ({
                 strokeWidth="0.75"
                 fontSize="16"
               >
-                Naka-diskoral
+                Naka bringhouse
               </tspan>
             </text>
 
@@ -1043,7 +1044,7 @@ const BoholMapJSX = ({
                 strokeWidth="0.75"
                 fontSize="16"
               >
-                Naka-videoke samtang namista
+                Naka disco
               </tspan>
             </text>
             <text

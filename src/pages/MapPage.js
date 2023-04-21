@@ -6,7 +6,7 @@ import ".././App.css";
 function MapPage() {
   const divRef = useRef(null);
 
-  const fileName = "phMap.jpg";
+  const fileName = "BoholFiestaMap.jpg";
 
   const downloadJpg = useCallback(() => {
     if (divRef.current === null) {
@@ -32,6 +32,27 @@ function MapPage() {
         </section>
         <section className="save-image-button" onClick={downloadJpg}>
           Save Image
+        </section>
+        <section className="copyright">
+          <p>
+            Based on{" "}
+            <a
+              href="https://www.my-philippines-travel-level.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              My Philippines Travel Level app
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/lemreyes/boholfiesta-map-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source
+            </a>
+          </p>
         </section>
       </section>
     </section>

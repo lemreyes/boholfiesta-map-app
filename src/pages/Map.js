@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import BoholMapJSX from '../BoholMap';
 import ".././App.css";
 
-const PhilippinesMap = () => {
+const BoholMap = () => {
   const [provinceLevels] = useState([]);
   const [selectedProvince, setSelectedProvince] = useState(null);
   const [selectedProvinceLayer, setSelectedProvinceLayer] = useState(null);
@@ -10,12 +10,12 @@ const PhilippinesMap = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [totalLevel, setTotalLevel] = useState(0);
 
-  const searchUrl = 'http://www.google.com/search?q="' + selectedProvince + ', Bohol"';
+  const searchUrl = 'http://www.google.com/search?q="' + selectedProvince + ', Bohol fiesta date"';
 
   const menuOptions = [
-    { label: 'Naka-bringhouse', level: 5, fill: '#e84c3d' },
-    { label: 'Naka-diskoral', level: 4, fill: '#d58337' },
-    { label: 'Naka-videoke samtang namista', level: 3, fill: '#f3c218' },
+    { label: 'Nagpista sa inyo', level: 5, fill: '#e84c3d' },
+    { label: 'Naka-bringhouse', level: 4, fill: '#d58337' },
+    { label: 'Naka-diskoral', level: 3, fill: '#f3c218' },
     { label: 'Nakapamista ug daghang balay', level: 2, fill: '#30cc70' },
     { label: 'Nakapamista', level: 1, fill: '#3598db' },
     { label: 'Wala kapamista', level: 0, fill: 'white' },
@@ -73,4 +73,4 @@ const PhilippinesMap = () => {
   );
 };
 
-export default PhilippinesMap;
+export default BoholMap;

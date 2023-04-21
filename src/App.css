@@ -28,16 +28,13 @@ body {
 }
 
 .Map-container {
-  background-color: rgb(214, 214, 214);
+  background-color: white;
   width: 100dvw;
-  height: 100dvh;
-  display: table-cell;
 }
 
 .Map-padding {
-  background-color: rgb(214,214,214);
-  padding-top: 20px;
-  padding-bottom: 20;
+  background-color: white;
+
 }
 
 .province-layer:hover {
@@ -122,6 +119,7 @@ body {
   width: 100px;
   justify-content: center;
   left: 50%;
+  margin-top: 2rem;
   margin-left: -50px;
   margin-bottom: 20px;
 }
@@ -142,7 +140,7 @@ body {
   list-style-type: none;
   text-decoration: none;
   color: black;
-  background-color: rgb(214,214,214);
+  background-color: white;
 
   padding-top: 10px;
 }
@@ -218,7 +216,15 @@ body {
 .svg_container {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+svg {
+
+}
+
+.copyright {
+  margin-top: 5rem;
+  font-size: 0.5rem;
   text-align: center;
 }
 
