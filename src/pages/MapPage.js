@@ -35,7 +35,7 @@ function MapPage() {
         </section>
         <section className="copyright">
           <p>
-            Based on{" "}
+            Based on &nbsp; 
             <a
               href="https://www.my-philippines-travel-level.com/"
               target="_blank"
@@ -44,6 +44,17 @@ function MapPage() {
               My Philippines Travel Level app
             </a>
           </p>
+          <p className="source">
+            Licensed under{" "}
+            <a href="https://raw.githubusercontent.com/OSSPhilippines/philippine-map-app/main/license">
+              GPLv3
+            </a>
+            . The software is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+            General Public License for more details.
+          </p>
+
           <p className="source">
             <a
               href="https://github.com/lemreyes/boholfiesta-map-app"
